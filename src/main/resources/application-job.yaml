@@ -1,0 +1,7 @@
+# https://www.baeldung.com/spring-boot-no-web-server
+spring:
+  main:
+    web-application-type: none
+  batch:
+    job:
+      enabled: true

@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: demo
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
