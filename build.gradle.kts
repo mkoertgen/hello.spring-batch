@@ -17,6 +17,8 @@ java {
 
 repositories {
 	mavenCentral()
+	// for Argo
+	maven("https://maven.aksw.org/repository/internal/")
 }
 
 extra["springCloudVersion"] = "2023.0.2"
@@ -46,7 +48,8 @@ dependencies {
 	implementation("io.kubernetes:client-java:20.0.1")
 
 	// Argo Workflows: https://github.com/argoproj/argo-workflows/tree/main/sdks/java#java-sdk
-	implementation("io.argoproj.workflow:argo-client-java:v3.3.8")
+	// https://mvnrepository.com/artifact/io.argoproj.workflow/argo-client-java
+	implementation("io.argoproj.workflow:argo-client-java:v3.4.3")
 }
 
 dependencyManagement {

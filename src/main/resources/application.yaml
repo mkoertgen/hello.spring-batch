@@ -3,6 +3,9 @@ spring:
     active: dev
   application:
     name: demo
+  batch:
+    job:
+      enabled: false # Disable auto-startup of jobs
 
 management:
   endpoints:

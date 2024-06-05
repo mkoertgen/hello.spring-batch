@@ -1,2 +1,5 @@
 # Configuration for Kubernetes Job Launcher
 # https://github.com/kubernetes-client/java/?tab=readme-ov-file
+k8s:
+  namespace: my-namespace
+  job-name: demo-job
